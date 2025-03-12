@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Tysen Grinde</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">Tysen Grinde</div>
+        <nav>
+            <div class="burger" aria-label="Mobile Menu Toggle">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <div class="nav-overlay">
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="achievements.html">Achievements</a></li>
+                    <li><a href="ambassador.html">Ambassador</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>Get in Touch</h1>
+            <p>I'd love to hear from you! Fill out the form below or connect with me on social media.</p>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="contact-form" method="POST" action="/api/contact">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="interests">Interested In:</label>
+                    <select id="interests" name="interests" multiple>
+                        <option value="ambassadorship">Brand Ambassadorship</option>
+                        <option value="project">Web Development Project</option>
+                        <option value="consulting">Performance Consulting</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+        </section>
+
+        <!-- Social Links Section -->
+        <section class="social-links">
+            <h2>Connect with Me</h2>
+            <div class="social-icons">
+                <a href="https://www.youtube.com/@tysen.grinde" target="_blank" class="icon youtube">YouTube</a>
+                <a href="https://www.facebook.com/TysenGrinde" target="_blank" class="icon facebook">Facebook</a>
+                <a href="https://www.tiktok.com/@tysen.grinde" target="_blank" class="icon tiktok">TikTok</a>
+                <a href="https://x.com/tysengrinde" target="_blank" class="icon twitter">X (Twitter)</a>
+                <a href="https://www.instagram.com/tysen.grinde" target="_blank" class="icon instagram">Instagram</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tysen Grinde. All rights reserved.</p>
+    </footer>
+
+    <script src="js/validation.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/api.js"></script>
+</body>
+</html>
