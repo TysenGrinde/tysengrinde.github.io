@@ -1,0 +1,170 @@
+.stats-max-width {
+  gap: var(--dl-layout-space-fourunits);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+ 
+.stats-container2 {
+  align-self: center;
+  align-items: flex-start;
+}
+ 
+.stats-container3 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+ 
+.stats-container4 {
+  flex: 0 0 auto;
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.stats-container5 {
+  flex: 0 0 auto;
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.stats-container6 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+ 
+.stats-container7 {
+  flex: 0 0 auto;
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.stats-container8 {
+  flex: 0 0 auto;
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.stats-container9 {
+  max-width: 50%;
+}
+ 
+.stats-fragment10 {
+  display: contents;
+}
+ 
+.stats-text21 {
+  display: inline-block;
+}
+ 
+.stats-fragment11 {
+  display: contents;
+}
+ 
+.stats-text22 {
+  display: inline-block;
+}
+ 
+.stats-fragment12 {
+  display: contents;
+}
+ 
+.stats-text23 {
+  display: inline-block;
+}
+ 
+.stats-fragment13 {
+  display: contents;
+}
+ 
+.stats-text24 {
+  display: inline-block;
+}
+ 
+.stats-fragment14 {
+  display: contents;
+}
+ 
+.stats-text25 {
+  display: inline-block;
+}
+ 
+.stats-fragment15 {
+  display: contents;
+}
+ 
+.stats-text26 {
+  display: inline-block;
+}
+ 
+.stats-fragment16 {
+  display: contents;
+}
+ 
+.stats-text27 {
+  display: inline-block;
+}
+ 
+.stats-fragment17 {
+  display: contents;
+}
+ 
+.stats-text28 {
+  display: inline-block;
+}
+ 
+.stats-fragment18 {
+  display: contents;
+}
+ 
+.stats-text29 {
+  display: inline-block;
+}
+ 
+.stats-fragment19 {
+  display: contents;
+}
+ 
+.stats-text30 {
+  display: inline-block;
+}
+ 
+.stats-fragment20 {
+  display: contents;
+}
+ 
+.stats-text31 {
+  display: inline-block;
+}
+ 
+@media(max-width: 991px) {
+  .stats-max-width {
+    gap: 32px;
+    flex-direction: column;
+  }
+  .stats-container9 {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .stats-image {
+    width: 100%;
+  }
+}
