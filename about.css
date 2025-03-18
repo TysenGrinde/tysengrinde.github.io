@@ -1428,33 +1428,22 @@
   flex-direction: row;
 }
  
-.about-icon14 {
+.about-icon {
   width: 24px;
   height: 24px;
   margin-right: var(--dl-layout-space-doubleunit);
 }
- 
-.about-icon16 {
-  width: 24px;
-  height: 24px;
-  margin-right: var(--dl-layout-space-doubleunit);
-}
- 
-.about-icon18 {
-  width: 24px;
-  height: 24px;
+
+.about-icon:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+  transition: all 0.3s ease-in-out;
 }
  
 .about-copyright-container {
   display: flex;
   align-items: center;
   flex-direction: row;
-}
- 
-.about-icon20 {
-  width: 24px;
-  height: 24px;
-  margin-right: var(--dl-layout-space-doubleunit);
 }
  
 @media(max-width: 991px) {

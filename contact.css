@@ -362,33 +362,22 @@
   flex-direction: row;
 }
  
-.contact-icon14 {
+.contact-icon {
   width: 24px;
   height: 24px;
   margin-right: var(--dl-layout-space-doubleunit);
 }
- 
-.contact-icon16 {
-  width: 24px;
-  height: 24px;
-  margin-right: var(--dl-layout-space-doubleunit);
+
+.contact-icon:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+  transition: all 0.3s ease-in-out;
 }
- 
-.contact-icon18 {
-  width: 24px;
-  height: 24px;
-}
- 
+
 .contact-copyright-container {
   display: flex;
   align-items: center;
   flex-direction: row;
-}
- 
-.contact-icon20 {
-  width: 24px;
-  height: 24px;
-  margin-right: var(--dl-layout-space-doubleunit);
 }
  
 @media(max-width: 991px) {
