@@ -1,3 +1,19 @@
+.strokeme {
+  color: white;
+  background-color: grey;
+  /* make background 50% opcatiy */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* make the background margin */
+  margin: 0.5em;
+  /* make the background border */
+  border: 1px solid black;
+  /* make the background border radius */
+  border-radius: 0.5em;
+  /* make the background padding */
+  padding: 0.5em;
+  
+}
+
 .about-head-wrapper {
   display: contents;
 }
